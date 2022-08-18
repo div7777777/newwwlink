@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: chartreuse;
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 4em black, 1px 1px 2em black;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    box-shadow:  inset 2px 2px 4em black, 0.5px 0.5px 1em black;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 35px;
+    animation: 7s infinite h1;
+    font-family: 'IM Fell DW Pica SC', serif;
+}  
+@keyframes h1{
+  
+}
+.symb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:  3px solid black;
+    box-shadow: inset 2px 2px 4em chartreuse;
+    animation: 7s infinite symb;
+} 
+
+.symbole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* container*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 12px solid black;
+    box-shadow: inset 0.5px 0.5px 1em black, 1px 1px 2em black;
+    border-radius: 50px;
+    height: 330px;
+    width: 330px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 30px;
+    height: 90px;
+    width: 90px;
+   
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: ;
+    padding: ;
+
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.symbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite symnl;
+}
+@keyframes symnl{
+    50%{
+        transform: rotate(360deg);
+    }
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite facebook;
+}
+@keyframes facebook{
+    50%{
+        transform: translateY(100px);
+    }
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite instagram;
+}
+@keyframes instagram{
+    50%{
+        transform: translateX(-100px);
+    }
+}
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite twitter;
+}
+@keyframes twitter{
+    50%{
+        transform: translateX(-100px);
+    }
+}
+.twitch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite twitch;
+}
+@keyframes twitch{
+    50%{
+        transform: translateY(-100px);
+    }
+}
+.linkdin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite linkdin;
+}
+@keyframes linkdin{
+    50%{
+        transform: translateY(100px);
+    }
+}
+.youtub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite youtub;
+}
+@keyframes youtub{
+    50%{
+        transform: translateX(100px);
+    }
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite whatsapp;
+}
+@keyframes whatsapp{
+    50%{
+        transform: translateX(100px);
+    }
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 7s infinite mail;
+}
+@keyframes mail{
+    50%{
+        transform: translateY(-100px);
+    }
+}
+/* adresse */
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 220px;
+    border: 2px solid black;
+    box-shadow: inset 1.5px 1.5px 2em black, 2px 2px 3em black;
+    border-radius: 50%;
+    
+}
